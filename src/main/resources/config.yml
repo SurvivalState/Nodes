@@ -1,0 +1,20 @@
+nodes:
+  default-respawn-seconds: 60
+  broken-material: BEDROCK
+  set-range: 5
+  protect: true
+  drop-items: true
+  restore-on-disable: true
+  autosave-seconds: 60
+  hide-visuals-below-seconds: 0.5
+
+display:
+  enabled: true
+  title: "&e&lRESPAWNING"
+  update-ticks: 20
+  y-offset: 1.5
+  bar-length: 20
+  view-range: 32
+
+messages:
+  prefix: "&7[&bNodes&7] &r"

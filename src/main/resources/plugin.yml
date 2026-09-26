@@ -1,0 +1,13 @@
+name: Nodes
+version: '${version}'
+main: dev.heypr.nodes.Nodes
+api-version: '1.21'
+authors: [ heypr ]
+description: Breakable resource nodes that respawn on a timer.
+permissions:
+  nodes.admin:
+    description: Manage nodes
+    default: op
+  nodes.reload:
+    description: Reload config
+    default: op
